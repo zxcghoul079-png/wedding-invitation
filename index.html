@@ -221,10 +221,7 @@ z-index:10;
     method: "POST",
     body: payload
 })
-            fetch("https://script.google.com/macros/s/AKfycbx5ucRZpjsfiKz81xNZ5itlAa-2oChwI1ftDGE4lbjlPiU9wB3b4CKkj3XWpeIF_qTKoQ/exec", {
-    method: "POST",
-    body: payload
-})
+           
 .then(response => {
     if (!response.ok) {
         throw new Error("Ошибка отправки");
